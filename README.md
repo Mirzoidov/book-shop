@@ -1,1 +1,1 @@
-# online kitoblar do'koni
+#Online kitoblar do'koni
