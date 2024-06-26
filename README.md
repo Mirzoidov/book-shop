@@ -2,7 +2,7 @@
 <br>
 <br>
 Kichik web sayti js kutubxonalarni ishlatmagan holda js orqali yaratildi.<br>
-Txnik talablari:<br>
+Texnik talablari:<br>
 1. Foydalanuvchi uchun kitob qidiruvi.<br>
 2. Foydalanuvchi uchun kitob kataloglar.<br>
 3. Ma'lum bir kitob haqida ma'lumot.<br>
