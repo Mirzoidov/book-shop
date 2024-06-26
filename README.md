@@ -1,3 +1,3 @@
-#Online kitoblar do'koni
+<b>#Online kitoblar do'koni<b>
 <br>
-kichik web sayti kutubxonalarni ishlatmagan holda js orqali yaratildi yaratildi
+Kichik web sayti kutubxonalarni ishlatmagan holda js orqali yaratildi yaratildi.
