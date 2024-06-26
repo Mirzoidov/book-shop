@@ -1,7 +1,7 @@
 #ONLINE KITOBLAR DO'KONI
 <br>
 <br>
-Kichik web sayti kutubxonalarni ishlatmagan holda js orqali yaratildi.<br>
+Kichik web sayti js kutubxonalarni ishlatmagan holda js orqali yaratildi.<br>
 Txnik talablari:<br>
 1. Foydalanuvchi uchun kitob qidiruvi.<br>
 2. Foydalanuvchi uchun kitob kataloglar.<br>
