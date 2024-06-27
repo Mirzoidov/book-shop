@@ -1,23 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Online Do'kon</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <h1 class="header-title">
-            Internet do'konimizga 
-            <span>Hush kelibsiz!</span>
-        </h1>
-        <div class="header__search-input">
-            <i class="fa-brands fa-searchengin"></i>
-            <input type="text" type="search" placeholder="Kitobning nomini yozing...">
-        </div>
+      <h1 class="header__title-big">
+        Internet Kitob do'konimizga
+        <span class="header__title-small">Hush kelibsiz!</span>
+      </h1>
+      <div class="header__search-input">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input
+          class="search-input"
+          type="text"
+          type="search"
+          placeholder="Kitobning nomini yozing..."
+        />
+      </div>
     </header>
+    <main class="main">
+        <div class="main__block">
+          <h1 class="main__block-title">Kitoblar katalogi</h1>
+          <div class="main__block-catalog">
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star active"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/Effective JavaScript_68 Specific Ways to Harness the Power of JavaScript.jpg"
+                class="main__block-card-img"
+                alt="Effective JavaScript_68"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__block-card">
+              <img
+                src="./images/JavaScript_The Good Parts.jpg"
+                class="main__block-card-img"
+                alt="JavaScript: the good parts"
+              />
+              <div class="main__block-card-info">
+                <h3 class="book__title">JavaScript: The Good Parts</h3>
+                <h4 class="book__author">Douglas Crockford</h4>
+                <div class="book__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="book__price">Narxi:
+                  <span id="price">$30</span>
+                </p>
+                <div class="book__button">
+                  <button class="btn btn-add">Savatchaga qo'shish</button>
+                  <button class="btn-show-more">Ko'proq ko'rsatish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__bag">
+          <div class="main__bag-info">
+            <h1 class="main__bag-info-title">
+              Savatchangiz
+            </h1>
+              <p class="total">Jami: <span id="sum">$0</span></p>
+              <button class="btn btn-bag">Buyurtmani tasdiqlang</button>
+          </div>
+        </div>
+    </main>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
